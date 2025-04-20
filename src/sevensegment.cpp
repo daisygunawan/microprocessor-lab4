@@ -6,7 +6,7 @@
 //----------------------------------------------------------------------//
 #include <avr/io.h> // Includes AVR I/O definitions so we can access registers like DDRC and PORTC
 #include "sevensegment.h" // Includes our custom header for 7-segment display functions
-#include "shiftRegister.h" // Includes our custom header for shift register control
+#include "shiftregister.h" // Includes our custom header for shift register control
 
 // This array holds the binary pattern for displaying digits 0 to 9 on a 7-segment display
 uint8_t digits[10] = {
