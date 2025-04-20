@@ -7,8 +7,8 @@
 #include <avr/io.h>
 #include <avr/interrupt.h>
 #include <Arduino.h>
-#include "sevenSegment.h"
-#include "shiftRegister.h"
+#include "sevensegment.h"
+#include "shiftregister.h"
 #include "switch.h"
 #include "pwm.h"
 #include "adc.h"
