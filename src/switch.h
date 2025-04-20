@@ -4,11 +4,9 @@
 // Project Name : Group Lab 4
 //
 //----------------------------------------------------------------------//
-#ifndef ADC_H
-#define ADC_H
+#ifndef SWITCH_H
+#define SWITCH_H
 
-// Initialize ADC0 to continuously sample on pin A0
-void initADC0();
+void initSwitchPD0();  // Function prototype for initializing the switch on PD0 with interrupt
 
-#endif // ADC_H
-
+#endif // SWITCH_H
